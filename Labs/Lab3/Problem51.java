@@ -32,7 +32,7 @@ public class Problem51 {
 		
 		System.out.println("The number of negatives is " + neg);
 		System.out.println("The number of positives is " + pos);
-		System.out.println("The average is " + (sum/tot));
+		System.out.println("The average is " + (sum/tot)); // JA: This is an integer division. You need to force it to be double.
 	}
 }
 
