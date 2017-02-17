@@ -1,4 +1,5 @@
 import java.util.Scanner;
+/// JA: Add comments to your code
 public class Problem74 {
 
 	static final int MAX = 100;
@@ -35,7 +36,7 @@ public class Problem74 {
 	            total += scores[i];
 	        }
 
-	        return total / numberOfScores;
+	        return total / numberOfScores; // JA: This has to be a non-integer division
 	    }
 
 	    public static int scoresAboveAndEqualToAverage(int[] scores, int average) {

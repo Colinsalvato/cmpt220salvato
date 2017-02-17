@@ -1,3 +1,4 @@
+// JA: Add comments to your code
 public class Problem69 {
 
 	public static void main(String[] args) {
@@ -5,7 +6,7 @@ public class Problem69 {
 		System.out.println(
 				"Feet     Meters | Meters     Feet" +
 				"\n----------------------------------------------");
-			for (double feet = 1, meters = 1; feet <= 10; feet++, meters += 1) {
+			for (double feet = 1, meters = 1; feet <= 10; feet++, meters += 1) { // JA: The index of the table of the right had +5 increment
 				System.out.printf("%4.1f   ", feet);
 				System.out.printf("%6.3f", footToMeter(feet));
 				System.out.print(" | ");

@@ -1,8 +1,8 @@
 import java.util.Scanner;
-
+// JA: Add comments to your code
 public class Problem618 {
 
-	private static final int PASSWORD_REQUIRED_LENGTH = 0;
+	private static final int PASSWORD_REQUIRED_LENGTH = 0; // JA: This was supposed to be 8
 	public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
 	System.out.println("Enter a Password ");
