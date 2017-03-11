@@ -11,30 +11,29 @@ public class LinearEquation{
 	}
 	public double getA(){
 		return a;
+    } // JA
+	public double getB(){
+		return b;
+	}
 
-		public double getB(){
-			return b;
-		}
+	public double getC(){
+		return c;
+	}
 
-		public double getC(){
-			return c;
-		}
+	public double getD(){
+		return d;
+	}
 
-		public double getD(){
-			return d;
-		}
+	public double getE(){
+		return e;
+	}
 
-		public double getE(){
-			return e;
-		}
+	public double getF(){
+		return f;
+	}
 
-		public double getF(){
-			return f;
-		}
-
-		public boolean isSolvable(){
-			double result = (a*d)-(b*c);
-			return (result != 0);
-		}
+	public boolean isSolvable(){
+		double result = (a*d)-(b*c);
+		return (result != 0);
 	}
 }

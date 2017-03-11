@@ -23,7 +23,7 @@ class Account {
 		dateCreated = new java.util.Date();
 	}
 
-	public Account(int id, double balace) {
+	public Account(int id, double balance) { // JA
 		this();
 		this.id = id;
 		this.balance = balance;
