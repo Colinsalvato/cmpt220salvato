@@ -1,3 +1,4 @@
+// JA: You missed the overlaps method
 class circle2d {
 		double x;
 		double y;
@@ -34,8 +35,8 @@ class circle2d {
 				return false;
 		}
 		public boolean contains(circle2d circle) {
-			if(this.radius < getDistance(circle.x, circle.y)
-					&& circle.radius > getDistance(circle.x, circle.y)) 
+			if( getDistance(circle.x, circle.y) < this.radius + circle.getRadius()) // JA
+//					&& circle.radius > getDistance(circle.x, circle.y)) 
 				return true;
 			else
 				return false;
