@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//JA: Where is the Triangle class declared?
 public class TriangleClass {
 
     public static void main(String[] args) {

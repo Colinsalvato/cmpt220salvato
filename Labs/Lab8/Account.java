@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
 
+// JA: There is no class to test this
 public class Account {
 
 	String mName;

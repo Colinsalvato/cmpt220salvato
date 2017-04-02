@@ -1,4 +1,6 @@
+import java.util.ArrayList; // JA
 
+// JA: There is no class to test this
 public class Problem_5 {
 	class Course {
 
