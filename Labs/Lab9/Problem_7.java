@@ -1,4 +1,3 @@
-
 public class Problem_7 {
 
 
@@ -11,9 +10,9 @@ public class Problem_7 {
 	public static int bin2Dec(String binary) throws NumberFormatException {
 
 		if (!isBinary(binary)) {
-			catch (java.lang.NumberFormatException e){
+//	JA		catch (java.lang.NumberFormatException e){
 			throw new NumberFormatException( binary + " is not a binary number.");
-			}
+//	JA		}
 		}
 		int power = 0;
 		int decimal = 0;
